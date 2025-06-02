@@ -1,0 +1,4 @@
+Metric,FEM (Adaptive FEM),HMC (Bayesian inference)
+Avg. MSE,3.2×10⁻⁵,1.1×10⁻³
+Runtime (hrs),0.5,4.7
+Memory Usage (GB),2.1,8.3

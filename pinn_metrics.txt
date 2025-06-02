@@ -1,0 +1,4 @@
+MSE: 9.609289e-02
+Training Runtime: 214.15 seconds (0.06 hours)
+Inference Runtime: 0.025581 seconds
+Memory Usage: 0.78 GB

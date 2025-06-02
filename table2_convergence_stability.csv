@@ -1,0 +1,9 @@
+Method,Convergence Metric,Value,Stability Assessment
+FEM (Nonlinear),Newton-Raphson Rate,0.0023,Good
+FEM (Linear),Newton-Raphson Rate,0.0005,Excellent
+HMC (viscosity parameter),Gelman-Rubin Statistic,1.01,Converged
+HMC (reynolds parameter),Gelman-Rubin Statistic,1.02,Converged
+HMC (sigma parameter),Gelman-Rubin Statistic,1.03,Converged
+MLMC (Level 1),Variance Reduction,0.85,Good
+MLMC (Level 2),Variance Reduction,0.72,Good
+MLMC (Level 3),Variance Reduction,0.61,Good

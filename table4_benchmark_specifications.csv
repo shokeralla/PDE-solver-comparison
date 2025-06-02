@@ -1,0 +1,12 @@
+Parameter,Specification
+Domain (Burgers),"[0,1] × [0,1]"
+Domain (Navier-Stokes),"[0,2] × [0,2]"
+Time Range,"[0,1.0]"
+Spatial Discretization,Adaptive triangular mesh (FEM) / Uniform grid (HMC)
+Temporal Discretization,Backward Euler (dt = 0.01)
+Viscosity Range,0.01 - 1.0
+Reynolds Number Range,"100 - 10,000"
+Boundary Conditions (Burgers),Dirichlet (u=0 on boundaries)
+Boundary Conditions (Navier-Stokes),No-slip walls (u=v=0)
+Initial Conditions (Burgers),"u(x,y,0) = sin(πx)sin(πy)"
+Initial Conditions (Navier-Stokes),"u(x,y,0) = 0, v(x,y,0) = 0, p(x,y,0) = 0"
